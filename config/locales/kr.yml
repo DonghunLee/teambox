@@ -168,31 +168,31 @@ en:
         presence: " 파일을 첨부해주시기 바랍니다."
         max_size: " 파일 크기는 {{mb}} 메가 를 넘을 수 없습니다."
         we_have_this_avatar: "다음의 사진이 업로드 되어 있습니다 :"
-        gravatar_in_use: "사진이 업로드 되어있지 않습ㄴ디. 다음의 기본 사진을 아바타로 사용하겠습니다 {{gravatar}}:"
-        upload_here_or_at_gravatar: "You can either upload a picture here or set one on {{gravatar}}."
-        destroy: Delete avatar
+        gravatar_in_use: "사진이 업로드 되어있지 않습니디. 다음의 기본 사진을 아바타로 사용하겠습니다 {{gravatar}}:"
+        upload_here_or_at_gravatar: "사진을 업로드 하거나 다음중에서 고를 수 있습니다. {{gravatar}}."
+        destroy: 아바타 삭제
       tooltips:
-        login: "You need a username to login. People will be able to find you by username. Must be all lowercase, no spaces. You can use undescores."
-        first_name: Up to 20 characters.
-        last_name: Up to 20 characters.
-        email: Enter your real email so your teammates can contact you.
-        password: "Combining letters, numbers, uppercase and lowercase is a good idea."
-        phone: "Work phone number will be visible to teammates. Enter it in full, e.g. +12345678"
+        login: "로그온하기 위해 계정이 필요합니다. 계정이름으로 다른사람들이 당신을 찾을 수 있습니다. 반드시 소문자를 쓰고, 공백은 허용되지 앟습니다. _ 문자를 사용 가능합니다."
+        first_name: 최대 20자.
+        last_name: 최대 20자.
+        email: 동료가 연락 가능하도록 실제 이메일을 기입하여 주시기 바랍니다.
+        password: "글자와 숫자, 대소문자 조합으로 패스워드를 설정하는것이 좋습니다."
+        phone: "직장 전화는 동료들에게 공개됩니다. 완전하게 기입하여 주십시오, 예. +12345678"
     new:
-      title: Create an Account
-      submit: Create account
+      title: 새 계정 생성
+      submit: 계정 생성
       no_public_signup: "Public signups are not allowed in this system."
-      you_are_logged_in: "You already have an account. Log out first to sign up as a different user."
+      you_are_logged_in: "이미 계정이 있습니다. 로그아웃하시고 해당 유저로 접속해 주세요."
       existing_user: "If you already have an account, <a href='{{login_url}}'>log in</a> or <a href='{{forgot_url}}'>retrieve your password</a>."
-      you_already_have_an_account: "You already have a Teambox account for the address {{email}}. <a href='{{login_link}}'>Log in with this email</a> or <a href='{{reset_password_link}}'>reset your password</a> if you forgot it."
+      you_already_have_an_account: "다음 이메일 주소로 이미 계정이 있습니다. {{email}}. <a href='{{login_link}}'>이메일로 로그인</a> 또는 <a href='{{reset_password_link}}'>비밀번호 재설정</a> if you forgot it."
     create:
-      thanks: Thanks for signing up!
-      error: "We couldn't set up that account, sorry. Please try again, or contact an admin (link is above)."
+      thanks: 가입해 주셔서 감사합니다!
+      error: "해당 계정을 만들 수 없습니다, 죄송합니다. 다시 시도하거나 관리자에게 연락해 주십시오. (link is above)."
     edit:
-      title_settings: Your Account Settings
-      title_profile: Your Profile Settings
-      title_picture: Your Profile Picture
-      title_notifications: Your Notifications
+      title_settings: 계정 설정
+      title_profile: 프로필 설정
+      title_picture: 프로필 사진
+      title_notifications: 알림
       title_deletion: Project Archiving/Deletion
       title_delete: Delete Account
       submit: Update account
