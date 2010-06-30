@@ -193,22 +193,22 @@ en:
       title_profile: 프로필 설정
       title_picture: 프로필 사진
       title_notifications: 알림
-      title_deletion: Project Archiving/Deletion
-      title_delete: Delete Account
-      submit: Update account
+      title_deletion: 프로젝트 보관 /삭제
+      title_delete: 계정 삭제
+      submit: 계정 업데이트
     update:
-      updated: User profile updated!
-      error: "Couldn't save the updated profile. Please correct the mistakes and retry."
+      updated: 프로필이 업데이트 되었습니다!
+      error: "새로운 프로필을 저장하지 못했습니다. 수정후 다시 시도해 주세요."
     activation:
-      resent: "We've re-sent the activation email. Take a look at your inbox!"
-      already_done: "You had already confirmed your email! You can now use Teambox."
-      activated: "Your account has been activated! Welcome to Teambox :)"
-      invalid: "<p>Invalid or expired access link. Login with your email and password.</p><p>If you don't remember your login data, follow the Forgot your Password link.</p>"
-      invalid_user: Invalid user
+      resent: "확인 메일을 다시 보냈습니다. 수신함을 확인해 주세요!"
+      already_done: "메일이 확인되었습니다! Teambox를 사용하실 수 있습니다."
+      activated: "계정이 활성화 되었습니다! Teambox에 오신것을 환영합니다. :)"
+      invalid: "<p>부적절하거나 만료된 링크입니다. 이메일과 비밀번호로 로그인 하세요.</p><p>로그인 정보를 잊으셨다면, 아래의 패스워드를 잊었습니다. 링크를 이용해 주세요.</p>"
+      invalid_user: 부적절한 사용자
     show:
-      profile: Profile
-      projects: Projects
-      recent_activity_for: "Recent activity for {{user_name}}"
+      profile: 프로필
+      projects: 프로젝트
+      recent_activity_for: "{{user_name}}님의 최근 활동"
       pending_invite: "{{name}} currently has a pending invitation to one of your projects. You will not be able to access any more information until this invitation has been accepted."
     user:
       formatted_address: "{{street}}, {{city}} ({{country}})"
