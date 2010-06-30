@@ -351,47 +351,47 @@ en:
       item5: "<b>Share information</b> by easily editable Pages for each project."
       footer: "Projects are a centralized way of collaborating, so you'll never need to email your team again."
     show:
-      update_your_status: "Update your status..."
-      text_styling: Text Styling
-      invite_people: 'Invite people...'
-      new_task_list_link: New Task List
-      people_in_project: People in this project
+      update_your_status: "당신의 상태를 업데이트 하세요..."
+      text_styling: 텍스트 스타일
+      invite_people: '사용자 초대...'
+      new_task_list_link: 새로운 테스크 목록
+      people_in_project: 이 프로젝트에 속한 사람들
       subscribe: Subscribe to the news feed
-      tip: Mentioning somebody's @username they will receive an email with your message
+      tip: @사용자명 으로 해당 사용자가 이메일로 메시지를 받도록 할 수 있습니다.
       rss:
-        title: "{{name}} activity feed"
+        title: "{{name}}님의 활동내용 feed"
         description: "Recent activities for the project {{name}}"
     fields:
-      tracks_time: "Enable time tracking. <em>Will allow users to log time for each task they work on.</em>"
-      archiving: "Archive this project"
-      forever: "Delete this project forever"
-      owner: "Owner"
-      owner_description: "The owner is the main responsible for a project. He cannot be removed from the project unless ownership is transferred to another user."
-      name: "Name <em>Keep it short and descriptive</em>"
-      name_description: "Choose a brief and descriptive title. For example: Taggart Transcontinental"
+      tracks_time: "타임 트래킹 활성화. <em>작업한 테스크에 대한 시간기록 활성화.</em>"
+      archiving: "이 프로젝트 보관"
+      forever: "이 프로젝트를 완전히 삭제"
+      owner: "소유자"
+      owner_description: "소유자는 프로젝트의 책임자입니다. 소유자는 소유권을 다른 사용자에게 넘기기 전까지 해당 프로젝트에서 삭제되지 않습니다."
+      name: "이름 <em>간략하고 알아보기 쉽도록 만드세요</em>"
+      name_description: "간략하지만 내용을 설명해 줄 수 있는 제목을 선택하세요. 예: 초코파이에서 파이의 함량구하기"
       permalink: "Permalink: <em>Short identifier for the project</em>"
-      permalink_description: "This will be the web address for your project. Keep it as short as possible. No spaces allowed."
-      archived: Archive this Project
-      confirm_delete: "Are you sure you'd want to delete this project forever? THERE IS NO WAY TO RECOVER IT. If you want to keep it, use Archive Project instead."
+      permalink_description: "당신의 프로젝트의 웹 주소가 됩니다. 가급적 짧게 작성해 주시고 공백은 허용되지 않습니다."
+      archived: 이 프로젝트 보관
+      confirm_delete: "이 프로젝트를 완전히 삭제하길 원하십니까? 다시는 되돌릴 수 없습니다. 만약 보관하고 싶다면 이 프로젝트 보관 메뉴를 사용해 주세요."
     new_primer:
       define1: A project is a shared group with your teammates.
-      define2: "Inside a project, each team member can:"
-      feature1: Post status updates.
-      feature2: Start conversations or reply.
-      feature3: Send attachments.
-      feature4: Assign and review tasks.
-      feature5: Comment on tasks.
-      feature6: Track hours spent on each item.
-      feature7: "Create, edit and view pages."
-      footer: This project will belong to you. You can transfer this project to other contacts at any time.
-      limited: "As a free account, you can only upload up to 50 Mb of attachments to this project."
-      upgrade: Upgrade your account now!
+      define2: "프로젝트에 포함되면 다음과 같은 활동이 가능합니다:"
+      feature1: 현재 상태 업데이트.
+      feature2: 대화 시작 또는 답변달기.
+      feature3: 파일 전송.
+      feature4: 태스크 승인 또는 재검토.
+      feature5: 테스크에 달린 코멘트.
+      feature6: 각각의 아이템에 사용한 시간 확인.
+      feature7: "페이지를 만들고 수정하고 보기."
+      footer: 당신은 이 프로젝트에 속하게 될 것입니다. 언제라도 이 프로젝트를 다른사람에게 넘길 수 있습니다.
+      limited: "무료계정으로는 이 프로젝트에 첨부파일을 50MB만 업로드 할 수 있습니다."
+      upgrade: 지금 계정을 업그레이드 하세요!
     new:
-      title: Create a Project
-      submit: Create project and start inviting people
-      new_project: New Project...
-      created: Your project has been created!
-      invalid_project: "Invalid project, correct errors and try again."
+      title: 프로젝트 생성
+      submit: 프로젝트를 만들고 사람들을 초대
+      new_project: 세 프로젝트...
+      created: 새 프로젝트가 생성되었습니다!
+      invalid_project: "부적절한 프로젝트 입니다, 수정후 다시 시도해 주세요."
       create_an_example_project: "First time in Teambox? <a href='{{link}}'>Create an example project</a> to play around and learn."
       not_allowed: "You can't create any projects with your current account."
     edit:
