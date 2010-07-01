@@ -392,192 +392,192 @@ en:
       new_project: 세 프로젝트...
       created: 새 프로젝트가 생성되었습니다!
       invalid_project: "부적절한 프로젝트 입니다, 수정후 다시 시도해 주세요."
-      create_an_example_project: "First time in Teambox? <a href='{{link}}'>Create an example project</a> to play around and learn."
-      not_allowed: "You can't create any projects with your current account."
+      create_an_example_project: "팀박스 이용이 처음이세요? <a href='{{link}}'>예제 프로젝트를 만들어 보세요</a> 둘러보고 배워보세요."
+      not_allowed: "현재 계정으로 프로젝트 생성이 불가능합니다.."
     edit:
-      title_settings: General Settings
-      title_picture: Project Logo
-      title_deletion: Archive/Delete Project
-      title_ownership: Ownership
-      submit: Save Changes
-      change_owner: Change owner
-      transferred: "Project ownership has been transferred."
-      invalid_transferred: "Project ownership could not be transferred, correct errors and try again."
+      title_settings: 일반설정
+      title_picture: 프로젝트 로고
+      title_deletion: 프로젝트 보관 /삭제
+      title_ownership: 소유권
+      submit: 변경사항 저장
+      change_owner: 소유자 변경
+      transferred: "프로젝트 소유권이 이전되었습니다."
+      invalid_transferred: "프로젝트 소유권이 이전될 수 없습니다, 오류를 수정하시고 다시 시도해 주세요."
   invitations:
     fields:
-      user_or_email: "Enter your teammate's username or email:"
+      user_or_email: "다른 팀원의 사용자명이나 이메일을 입력하세요:"
     invitation:
-      invited_user: "{{inviter}} invited <b>{{invitee}}</b> to join the project."
-      invited_email: "{{inviter}} invited <b>{{email}}</b> to join the project."
-      time_ago: "({{time_ago_in_words}} ago)"
-      resend: Re-send invitation email
-      pending: "An email was sent to this user, but they still haven't confirmed."
-      discard: Discard invitation
+      invited_user: "{{inviter}}님께서 <b>{{invitee}}</b>님을 프로젝트에 초대했습니다."
+      invited_email: "{{inviter}}님께서 <b>{{email}}</b> 주소를 프로젝트에 초대했습니다."
+      time_ago: "({{time_ago_in_words}} 이전)"
+      resend: 초대메일 재전송
+      pending: "이메일이 사용자에게 발송되었습니다만, 아직까지 사용자가 확인하지 않았습니다."
+      discard: 초대 취소
     group_invitation:
-      invited_user: "{{inviter}} invited <b>{{invitee}}</b> to join the group."
-      invited_email: "{{inviter}} invited <b>{{email}}</b> to join the group."
+      invited_user: "{{inviter}}님께서 <b>{{invitee}}</b>님을 그룹에 초대했습니다."
+      invited_email: "{{inviter}}님께서 <b>{{email}}</b> 주소를 그룹에 초대했습니다."
     sent:
-      email_sent: "Email invitation has been sent"
+      email_sent: "초대장이 발송되었습니다."
     pending:
       to_access_or: to access the project or
       to_access_or_group: to access the group or
-      invited_to_join: "{{by}} has invited you to join the project {{project}}."
-      invited_to_join_group: "{{by}} has invited you to join the group {{group}}."
+      invited_to_join: "{{by}}님께서 {{project}} 프로젝트에 초대하셨습니다."
+      invited_to_join_group: "{{by}}님께서 {{group}} 그룹에 초대하셨습니다."
     resend:
-      resent: "The invitation has been resent to {{recipient}}"
-      return: Go back
+      resent: "{{recipient}}님을 다시 초대하셨습니다."
+      return: 뒤로
     index_user:
-      title: Pending invitations
-      no_invitations: "You have no pending project invitations."
+      title: 수락하지 않은 초대
+      no_invitations: "수락하지 않은 초대가 없습니다."
     search:
-      username_or_email: "Enter your teammate's username or email"
-      invite_people: Invite people to this project
-      invite: Invite
-      role: "Select a role"
-      submit: Send
-      invite_from_project: "Invite from Project"
+      username_or_email: "다른 팀원의 이름이나 이메일을 입력하세요"
+      invite_people: 이 프로젝트로 초대
+      invite: 초대
+      role: "역할지정"
+      submit: 발송
+      invite_from_project: "프로젝트에서 초대"
     recent:
-      invite: "Invite {{username}}"
+      invite: "{{username}}님을 초대"
     errors:
-      invalid: "Invalid invitation"
-      invalid_code: "Invalid invitation code"
+      invalid: "부적절한 초대입니다"
+      invalid_code: "부적절한 초대 오류번호"
     destroy:
-      discarded: "The invitation to {{user}} has been discarded"
+      discarded: "{{user}}님께 한 초대가 취소되었습니다"
   conversations:
     actions:
-      confirm_delete: Are you sure you to delete this conversation?
+      confirm_delete: 정말 이 대화를 삭제하시겠습니까?
     link:
-      edit: Edit
+      edit: 수정
     fields:
-      name: Title
-      body: First comment
+      name: 제목
+      body: 첫번째 코멘트
       tooltips:
-        name: "As short as possible, this will appear in notification email's subjects"
-        body: "Ask a question, tell your team what's new, start a discussion"
+        name: "이메일 알람의 제목입니다. 가급적 짧게 해 주세요"
+        body: "질문을 하고 새로운 소식을 알리세요. 논의를 시작합니다."
     new:
-      title: New Conversation
-      submit: Create
+      title: 새로운 대화
+      submit: 생성
     watcher_fields:
-      add_suscribers: Which people will be watching this conversation?
-      subscribe_note: These people will be notified via email of this message and any following comments.<br/>They can unsubscribe at any moment.
-      invite_users: You are the only user in this project!
-      no_users_yet: "Conversations are more useful when shared. <a href='{{invite_link}}'>Invite some users</a> to this project now so they can access this conversation, answer and receive updates."
-      people_all: "All people in project"
+      add_suscribers: 누가 이 대화를 봅니까?
+      subscribe_note: 이 사람들은 메일로 메시지와 앞으로의 코멘트에 대해 알림을 받습니다.<br/>언제라도 이 사람들은 알림을 받지 않을 수 있습니다.
+      invite_users: 당신이 이 프로젝트의 유일한 사용자 입니다!
+      no_users_yet: "대화는 공유했을대 더욱 유용합니다. <a href='{{invite_link}}'>다른 유저를 초대하세요</a> 초대된 사용자들은 대화에 참여할 수 있고 업데이트를 볼 수 있습니다."
+      people_all: "프로젝트에 속한 모든 사람"
     edit:
-      submit: 'Update Conversation'
+      submit: '대화 업데이트'
     index:
       rss:
-        title: "{{name}} conversations"
-        description: "Conversations for project {{name}}"
+        title: "{{name}} 대화"
+        description: "{{name}} 프로젝트내의 대화"
     primer:
-      empty: This project doesn't have any conversations yet.
-      create_first: Create the first conversation in this project!
-      define: "Use conversations to <b>discuss decisions</b> and <b>update your team</b> in a centralized way.<br/>Each conversation is a thread of comments, which replace messy emails."
-      item1: "<b>Share files</b>. Comments can have attached files, too."
-      item2: "<b>Subscribe</b> to a conversation to be notified about future replies by email or RSS."
-      item3: "<b>Impress</b>. Any comment can be formatted with text styles."
-      item4: "<b>Inbox-driven?</b> You can answer to a conversation from your email to post a reply."
-      footer1: "Conversations are great to <b>share a design</b>, <b>decide a date</b> for meeting or <b>report</b> some news."
-      footer2: "Since they're threaded, it's easy to go back in time and see which files were sent and what did each teammate said. In Teambox, <b>collaborating is also reporting</b>."
+      empty: 프로젝트 내의 대화가 아직 없습니다.
+      create_first: 이 프로젝트에서 첫 대화를 만드세요!
+      define: "<b>의견을 교환</b> 하고 <b>팀의 상태를 업데이트</b>하기 위해 대화를 사용하세요.<br/>각각의 대화는 복잡한 이메일 대화의 수고를 줄여줍니다."
+      item1: "<b>파일 공유</b>. 또한 코멘트에서도 파일을 공유할 수 있습니다."
+      item2: "<b>구독</b> 이메일이나 RSS로 차후에 달린 답변들을 구독하세요."
+      item3: "<b>강조</b>. 코멘트는 다양한 텍스트 스타일이 적용됩니다."
+      item4: "<b>편지함에서 전송</b> 편지함에서 답장을 해서 코멘트를 다실 수도 있습니다."
+      footer1: "<b>디자인을 공유</b>하고, 회의 <b>날짜를 결정</b>하거나 새로운 뉴스를 <b>보고</b>하는데 대화는 좋은 수단입니다."
+      footer2: "대화가 시작되면 이전의 대화를 거슬러 올라가 어떤 파일이 발송되었는지, 어떤 대화가 오고 갔는지 쉽게 알 수 있습니다. <b>협동은 곧 대화입니다.</b>."
     column:
-      new_conversation: New Conversation
-      cant_create: You don't have permission to create conversations in this project
-      subscribe: Subscribe to the news feed
+      new_conversation: 새로운 대화
+      cant_create: 이 프로젝트내에서 대화를 생성할 권한이 없습니다.
+      subscribe: 구독
     conversation_with_extract:
-      posted_by: Posted by
+      posted_by: 게시자
     show:
-      started_by: Started by
-      edit: Edit title
-      message: message
-      messages: messages
+      started_by: 게시일
+      edit: 제목 수정
+      message: 내용
+      messages: 내용
     short_conversation:
-      comment: comment
-      comments: comments
+      comment: 코멘트
+      comments: 코멘트
   hours:
-    comments: Time Entries
-    filter_by: Filter by
-    report: Report
-    week_num: Week {{num}}
-    entry_hours: hrs
-    entry_total: Total
-    week_total: Total
-    all_tasks: All tasks
-    all_users: All users
+    comments: 시간
+    filter_by: 재정렬
+    report: 보고
+    week_num: {{num}}주차
+    entry_hours: 시
+    entry_total: 전체
+    week_total: 전체
+    all_tasks: 모든 테스크
+    all_users: 모든 사용자
     reports:
-      user: Users
-      project: Projects
-      task: Tasks
+      user: 사용자
+      project: 프로젝트
+      task: 테스크
     filters:
-      assigned_to: People
-      tasks: Tasks
-      projects: Projects
+      assigned_to: 사용자별
+      tasks: 테스크별
+      projects: 프로젝트별
 
   tasks:
     errors:
       name:
-        cant_be_blank: 'must not be blank'
-        too_long: 'must be shorter than 255 characters'
+        cant_be_blank: '비어있으면 안 됩니다'
+        too_long: '255자보다 짧아야 합니다'
     fields:
-      title: New Task
-      task: "Choose an actionable task. The more specific, the better."
-      name: Enter a Task title <i>eg. Upload Logo Proposal</i>
-      optional: You can provide better instructions for this Task below.
-      body: What needs to be done? <i>optional</i>
-      due_on: Needs to be done before... <i>optional</i>
-      assigned_to: Who is responsible?
-      assigned_to_nobody: Nobody
+      title: 새로운 테스크
+      task: "가능한 테스크를 선택하세요. 구체적일수록 좋습니다."
+      name: 테스크명을 입력하세요 <i>예. 화장실 청소</i>
+      optional: 아래에 좀더 자세한 사항을 기록할 수 있습니다.
+      body: 무엇을 해야 합니까? <i>선택사항</i>
+      due_on: 완료일... <i>선택사항</i>
+      assigned_to: 책임자
+      assigned_to_nobody: 책임자 없음
     assigned:
-      assigned_to: "Assigned to {{user}}"
+      assigned_to: "{{user}}님이 책임자 입니다."
     due_on:
-      due_on: Due on
-      today: Today
-      tomorrow: Tomorrow
-    create: Add Task
+      due_on: 완료일
+      today: 오늘
+      tomorrow: 내일
+    create: 테스크 추가
     edit:
-      submit: Update Task
+      submit: 테스크 업데이트
     new:
-      title: New Task
-      submit: Add Task
+      title: 새로운 테스크
+      submit: 테스크 추가
     show:
-      title: "Task: {{name}}"
+      title: "테스크: {{name}}"
     link:
-      new: + Add Task
-      edit: Edit
+      new: + 테스크 추가
+      edit: 수정
       hide_archived_tasks:
-        one: "Hide 1 archived task"
-        other: "Hide {{count}} archived tasks"
+        one: "1개의 보관된 작업 숨기기"
+        other: "{{count}}개의 보관된 작업 숨기기"
     destroy_message:
-      deleted: "The Task <b>{{name}}</b> was successfully deleted!"
+      deleted: "<b>{{name}}</b> 테스크가 삭제되었습니다!"
     archive_message:
-      archived: "The Task <b>{{name}}</b> was successfully archived!"
+      archived: "<b>{{name}}</b> 테스크가 보관되었습니다!"
     archive_box:
-      you_are_done: It looks like you're done with this task!
-      archive: Archive this task
-      reopen: Reopen this task
+      you_are_done: 테스크를 완료한것 같습니다!
+      archive: 이 테스크를 보관
+      reopen: 이 테스크를 다시 시작
     unarchive_box:
-      task_is_closed: This task is closed and archived
-      unarchive: Unarchive
-      reopen: Reopen this task
-    overdue: "{{days}} days late"
+      task_is_closed: 이 테스크는 완료후 보관되었습니다
+      unarchive: 보관해제
+      reopen: 이 테스크를 다시 시작
+    overdue: "{{days}}일 늦었습니다."
     status:
-      new: new
-      open: open
-      hold: hold
-      resolved: resolved
-      rejected: rejected
+      new: 새로만들어짐
+      open: 시작됨
+      hold: 보류됨
+      resolved: 해결됨
+      rejected: 거부됨
     my_tasks:
-      my_tasks: My tasks for all projects
+      my_tasks: 모든 프로젝트내의 내 테스크
   notes:
     actions:
-      delete_confirm: Are you sure you want to delete this note?
+      delete_confirm: 이 노트를 정말로 지우시겠습니까?
     new:
-      submit: Add Note
+      submit: 노트 추가
     edit:
-      submit: Update Note
+      submit: 노트 업데이트
     fields:
-      title: Title
-      body: Body
-      text_styling: Text Styling
+      title: 제목
+      body: 내용
+      text_styling: 문단 스타일
   dividers:
     actions:
       delete_confirm: Are you sure you want to delete this divider?
