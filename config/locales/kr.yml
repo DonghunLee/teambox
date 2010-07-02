@@ -580,11 +580,11 @@ en:
       text_styling: 문단 스타일
   dividers:
     actions:
-      delete_confirm: Are you sure you want to delete this divider?
+      delete_confirm: 나눔을 제거하시겠습니까?
     new:
-      submit: Add
+      submit: 추가
     edit:
-      submit: Update
+      submit: 업데이트
   pages:
     index:
       pages_in_this_project: Pages in this project
