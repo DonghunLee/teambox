@@ -587,45 +587,45 @@ en:
       submit: 업데이트
   pages:
     index:
-      pages_in_this_project: Pages in this project
+      pages_in_this_project: 프로젝트 페이지
       rss:
-        title: "{{name}} pages"
-        description: "Pages in project {{name}}"
+        title: "{{name}} 페이지"
+        description: "{{name}} 프로젝트 안의 페이지"
     primer:
-      empty: This project doesn't have any pages yet.
-      create_first: Create the first page in this project!
-      define1: "Here you can <b>share useful information</b> for your team: A roadmap, interesting links, instructions, email templates..."
-      define2: "Editing a page is easy and fun, with drag-and-drop elements you can edit in place."
-      item1: "<b>Share</b>. All your teammates can view and edit the project's pages."
-      item2: "<b>Publish</b>. Instant web publishing with shared pages. Show the world."
-      item3: "<b>Print</b>. Pages are printer-friendly. Try printing or exporting a PDF!"
-      item4: "<b>Wiki</b>. Pages acts like a wiki, giving quick access to the project's information."
-      footer1: "Use Teambox as your <b>shared whiteboard</b> for frequently used stuff."
-      footer2: "You can also attach files to any page inside each note. Enjoy!"
+      empty: 프로젝트 안에 페이지가 아직 없습니다.
+      create_first: 이 프로젝트 안에서 페이지를 만드세요!
+      define1: "로드맵, 흥미로운 링크, 설명서, 이메일 양식등, 다른 팀원들과 함께 <b>유용한 정보</b>를 공유하세요."
+      define2: "즉시 사용가능한 드래그 앤 드롭을 이용해서 페이지를 쉽게 편집해 보세요."
+      item1: "<b>공유</b>. 모든 팀원들은 프로젝트에 속한 페이지를 보고 편집할 수 있습니다."
+      item2: "<b>발행</b>. 공유한 페이지를 즉시 인터넷에 발행 가능합니다. 모든 사람들에게 보여주세요."
+      item3: "<b>출력</b>. 페이지는 쉽게 프린트 가능합니다. 프린트를 하거나 PDF로 출력하세요!"
+      item4: "<b>위키</b>. 페이지는 위키처럼 동작합니다. 프로젝트 정보를 쉽게 얻으세요!."
+      footer1: "Teambox를 자주쓰는 정보를 위한 <b>칠판</b>처럼 사용하세요."
+      footer2: "또한 페이지 안에 어느곳에서나 파일을 첨부할 수 있습니다. 시작하세요!"
     buttons:
-      new_note: Text
-      new_divider: Divider
-      new_upload: Upload
-      new_task_list: Task List
+      new_note: 텍스트
+      new_divider: 나눔
+      new_upload: 업로드
+      new_task_list: 테스크 리스트
     new:
-      title: New Page
-      define1: "Here you can <b>share useful information</b> for your team: A roadmap, interesting links, instructions, email templates..."
-      define2: "Editing a page is easy and fun, with drag-and-drop elements you can edit in place."
-      feature1: "<b>Share</b>. All your teammates can view and edit the project's pages."
-      feature2: "<b>Publish</b>. Instant web publishing with shared pages. Show the world."
-      feature3: "<b>Print</b>. Pages are printer-friendly. Try printing or exporting a PDF!"
-      feature4: "<b>Wiki</b>. Pages acts like a wiki, giving quick access to the project's information."
-      footer1: "Use Teambox as your <b>shared whiteboard</b> for frequently used stuff."
-      footer2: "You can also attach files to any page inside each note. Enjoy!"
-      submit: Create
+      title: 새 페이지
+      define1: ""로드맵, 흥미로운 링크, 설명서, 이메일 양식등, 다른 팀원들과 함께 <b>유용한 정보</b>를 공유하세요."
+      define2: "즉시 사용가능한 드래그 앤 드롭을 이용해서 페이지를 쉽게 편집해 보세요."
+      feature1: "<b>공유</b>. 모든 팀원들은 프로젝트에 속한 페이지를 보고 편집할 수 있습니다."
+      feature2: "<b><b>발행</b>. 공유한 페이지를 즉시 인터넷에 발행 가능합니다. 모든 사람들에게 보여주세요."
+      feature3: "<b>출력</b>. 페이지는 쉽게 프린트 가능합니다. 프린트를 하거나 PDF로 출력하세요!"
+      feature4: "<b>위키</b>. 페이지는 위키처럼 동작합니다. 프로젝트 정보를 쉽게 얻으세요!."
+      footer1: "Teambox를 자주쓰는 정보를 위한 <b>칠판</b>처럼 사용하세요."
+      footer2: "또한 페이지 안에 어느곳에서나 파일을 첨부할 수 있습니다. 시작하세요!"
+      submit: 생성
     edit:
-      title: Edit Page
-      submit: Update
+      title: 페이지 편집
+      submit: 업데이트
     fields:
-      name: Name
-      name_description: Choose a short and descriptive title
+      name: 제목
+      name_description: 짧고 알아보기 쉬운 제목을 만드세요
       description: Description
-      description_description: "Optional. Enter any information that people reading or editing this page should know."
+      description_description: "Optional. 이 페이지를 편집하는 사람이 알아야 할 사항등 Enter any information that people reading or editing this page should know."
     slots:
       insert_here: Insert Here
     column:
