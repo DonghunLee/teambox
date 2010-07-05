@@ -685,11 +685,11 @@ en:
       tasks_for_project: 이 프로젝트 내의 테스크
       other_views: 다른 뷰
       rss:
-        title: "{{name}} task updates"
-        description: "Tasks activity for project {{name}}"
+        title: "{{name}} 테스크가 업데이트 되었습니다."
+        description: "{{name}} 프로젝트의 테스크"
     primer:
-      empty: This project doesn't have any task lists yet.
-      create_first: Create the first task list in this project!
+      empty: 이 프로젝트에 테스크 리스트가 아직 없습니다..
+      create_first: 첫 번째 테스크 리스트를 만드세요!
       define: "Use tasks to <b>plan ahead</b>, <b>keep track of progress</b> and <b>review what's been done</b>.<br/><i>What? Who? When?</i> Tasks can have a status, an assigned person and due dates."
       item1: "<b>Plan</b>. Create tasks inside each list and assign them to your teammates."
       item2: "<b>Report</b>. Post comments for each task. Attach files. Ask for feedback."
@@ -698,17 +698,17 @@ en:
       footer1: "Tasks are a simple and agile way to <b>get things done</b> and let others now."
       footer2: "It's time to forget about excel planning sheets and complex GANTT charts!"
     overview_box:
-      this_list: "This task list"
-      starts_on: "Starts on:"
-      ends_on: "Ends on:"
-      undefined: "Undefined"
+      this_list: "이 테스크 리스트"
+      starts_on: "시작시점:"
+      ends_on: "종료시점:"
+      undefined: "정해지지 않음"
     new:
-      title: New Task List
-      submit: Add Task List
+      title: 새로운 테스크 리스트
+      submit: 새로운 테스크 재목 추가
     edit:
-      submit: Update Task List
+      submit: 테스크 리스트 업데이트
     column:
-      new_task_list: New Task List
+      new_task_list: 새로운 테스크 리스트
       cant_create: You don't have permission to create tasks in this project
       subscribe: Subscribe to the news feed
       other_views: Other views
