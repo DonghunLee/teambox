@@ -625,65 +625,65 @@ en:
       name: 제목
       name_description: 짧고 알아보기 쉬운 제목을 만드세요
       description: Description
-      description_description: "Optional. 이 페이지를 편집하는 사람이 알아야 할 사항등 Enter any information that people reading or editing this page should know."
+      description_description: "선택사항. 이 페이지를 편집하는 사람이 알아야 할 사항등."
     slots:
-      insert_here: Insert Here
+      insert_here: 이곳에 입력
     column:
-      new_page: New Page
-      cant_create: You don't have permission to create pages in this project
-      all_pages: All Pages
+      new_page: 새 페이지
+      cant_create: 새 페이지를 만들 권한이 없습니다.
+      all_pages: 모든 페이지
   task_lists:
     errors:
       name:
-        cant_be_blank: Name must not be blank
-        too_long: 'Name is must be shorter than 255 characters'
+        cant_be_blank: 이름은 공백으로 만들 수 없습니다.
+        too_long: '이름은 최대 255자까지 허용됩니다.'
     archived:
-      title: All Archived Tasks
-      description: You're currently looking at archived tasks. These are tasks that have been closed.
+      title: 모든 보관된 테스크들
+      description: 보관된 테스크들을 보고 있습니다. 모두 이미 완료된 테스크들입니다.
     archive_box:
-      unarchive_list: This task list is archived.
+      unarchive_list: 이 테스크 리스트는 보관되었습니다.
     actions:
-      resolve_and_archive: "Resolve all tasks and archive"
-      confirm_resolve_and_archive: "Are you sure you want to resolve and archive this task list?"
-      archive: "archive this task list"
-      rename: "Rename task list"
-      set_dates: "Set the start & end date"
+      resolve_and_archive: "모든 테스크 완료 후 보관"
+      confirm_resolve_and_archive: "정말로 모든 테스크를 완료하고 보관하시겠습니까??"
+      archive: "테스크 리스트 보관"
+      rename: "테스크 리스트 이름변경"
+      set_dates: "시작일/종료일 지정"
       show_archived:
-        one: "Show 1 archived task"
-        other: "Show {{count}} archived tasks"
+        one: "1개의 보관된 테스크 보기"
+        other: "{{count}}개의 보관된 테스크 보기"
     fields:
-      title: New Task List
-      task_list: A task lists defines a milestone for your project. Inside a task list you can create Tasks and assign them to people.
-      name: "Choose a name for this Task List <i>eg. Prepare a Prototype</i>"
-      optional: "If you starting and ending dates, this task will be displayed in the GANTT chart"
-      start_on: Starts on... <i>optional</i>
-      finish_on: End on... <i>optional</i>
+      title: 새 테스크 리스트
+      task_list: 테스크 리스트는 프로젝트에서 중요한 이정표입니다. 테스크 리스트로 테스크들을 만들고 팀원들에게 테스크를 배분할 수 있습니다.
+      name: "이 테스크 리스트의 이름을 정하세요 <i>예. 산딸기를 맛있게 먹는방법</i>"
+      optional: "시작일과 종료일을 지정하면 간트차트에서 테스크를 확인할 수 있습니다."
+      start_on: 시작일... <i>선택사항</i>
+      finish_on: 종료일 <i>선택사항</i>
     filter:
-      anybody: Anybody
-      my_tasks: My tasks
-      unassigned: Unassigned
-      anytime: Anybody
-      late_tasks: Late tasks
-      no_date_assigned: No date assigned
-      today: Today
-      tomorrow: Tomorrow
-      due_date: "Display tasks with due date..."
-      assigned_to: "Display tasks assigned to..."
+      anybody: 모두
+      my_tasks: 내 테스크
+      unassigned: 미할당
+      anytime: 모두
+      late_tasks: 지연된 테스크
+      no_date_assigned: 날짜 미지정
+      today: 오늘
+      tomorrow: 내일
+      due_date: "종료일과 함께 테스크를 표시..."
+      assigned_to: "할당된 테스크 표시..."
     link:
-      new: New Task List
-      edit: Edit
-      reorder: Reorder Task Lists
-      reorder_done: Done reorder
-      unarchive: Unarchive
+      new: 새 테스크 리스트
+      edit: 편집
+      reorder: 테스크 리스트 재정렬
+      reorder_done: 재정렬 완료
+      unarchive: 보관해제
     index:
-      no_dates_assigned: No dates assigned
-      starts_on: "Starts on {{date}}"
-      ends_on: "Ends on {{date}}"
-      add_link: New Task List
-      empty: No tasks in this category!
-      tasks_for_all_projects: Tasks across all projects
-      tasks_for_project: Task lists for this project
-      other_views: Other views
+      no_dates_assigned: 일짜 미지정
+      starts_on: "시작일 {{date}}"
+      ends_on: "종료일 {{date}}"
+      add_link: 새로운 테스크 리스트
+      empty: 테스크가 존재하지 않습니다!
+      tasks_for_all_projects: 모든 프로젝트 내의 테스크
+      tasks_for_project: 이 프로젝트 내의 테스크
+      other_views: 다른 뷰
       rss:
         title: "{{name}} task updates"
         description: "Tasks activity for project {{name}}"
