@@ -709,63 +709,63 @@ en:
       submit: 테스크 리스트 업데이트
     column:
       new_task_list: 새로운 테스크 리스트
-      cant_create: You don't have permission to create tasks in this project
-      subscribe: Subscribe to the news feed
-      other_views: Other views
+      cant_create: 이 프로젝트에서 새로운 테스크를 만들 권한이 없습니다.
+      subscribe: 뉴스 피드 구독하기
+      other_views: 다른 뷰
     show:
-      title: "Task List: {{name}}"
+      title: "테스크 리스트: {{name}}"
     destroy_message:
-      deleted: "The Task List <b>{{name}}</b> was successfully deleted!"
+      deleted: "테스크 리스트 <b>{{name}}</b>가 삭제되었습니다!"
   people:
     link:
-      edit: Edit
+      edit: 편집
     update:
-      success: "You have updated {{name}}'s role"
+      success: "{{name}} 권한을 획득했습니다."
     edit:
-      submit: Update person
+      submit: 사용자 업데이트
     fields:
-      role: Role
-      observer: Observer. Read-only access to the project.
-      commenter: "Commenter. Can comment, but not create new elements."
-      participant: "Participant. Can do everything, but not invite users."
-      admin: "Admin. Can invite users to the project, and delete comments."
+      role: 역할
+      observer: 옵저버. 프로젝트에 읽기만 가능.
+      commenter: "코멘터. 코멘트는 가능하지만 새로운 요소를 만들지는 못함."
+      participant: "참가자. 다른 사용자를 초대를 제외한 모든 활동 가능."
+      admin: "관리자. 다른 사용자를 초대하고 코멘트를 삭제 가능."
     header:
-      owner: Project Owner
-      observer: Observer
-      commenter: Commenter
-      participant: Participant
-      admin: Admin
-      remove: Remove
-      transfer: Transfer Ownership
-      leave_project: Leave Project
-      confirm_delete: Are you sure you want to remove this person from the project?
+      owner: 프로젝트 소유자
+      observer: 옵저버
+      commenter: 코멘터
+      participant: 참가자
+      admin: 관리자
+      remove: 삭제
+      transfer: 소유권 양도
+      leave_project: 프로젝트에서 나가기
+      confirm_delete: 프로젝트에서 이 사용자를 제거하시겠습니까?
     errors:
-      user_or_email: "User not found. Enter his username or email."
+      user_or_email: "사용자를 찾지 못했습니다. 사용자명이나 이메일을 입력하세요."
     column:
-      select_project: Select a project
-      no_contacts: There are no people available to invite.
-      inviting: "Inviting other users"
-      only_admins_can_invite: "Only admins can invite people to this project."
-      contact_admins: "In this project, only {{admins}} can invite new members."
-      leaving: "Leaving the project"
-      you_can_leave: "You can leave this project at any moment. If you do, you won't be able to access its data anymore, and you will not receive further notifications. Others will still be able to access the project, and no data will be lost."
-      leave_project: "Leave this project"
-      confirm_delete: Are you sure you want to leave this project?
+      select_project: 프로젝트를 선택하세요
+      no_contacts: 초대 가능한 사람이 없습니다.
+      inviting: "다른 사람 초대"
+      only_admins_can_invite: "관리자만이 다른 사용자를 초대할 수 있습니다."
+      contact_admins: "이 프로젝트에서는 {{admins}}님만 다른 사용자 초대가 가능합니다."
+      leaving: "프로젝트에서 나가기"
+      you_can_leave: "언제라도 프로젝트에서 나갈 수 있습니다. 프로젝트에서 나가면 더이상 프로젝트내의 데이터에 접근이 불가능하며, 더이상의 알림이 통보되지 않습니다. 다른 사용자들은 여전히 접속 가능하며 데이터 또한 보관됩니다."
+      leave_project: "이 프로젝트에서 나가기"
+      confirm_delete: 정말로 이 프로젝트에서 나가시겠습니까?
   comments:
     comment:
       commented_on: "-"
       commented_on_a_task_list: "-"
-      confirm_delete: Are you sure you want to delete this comment?
-      hours: "{{hours}}h"
-      hours_with_minutes: "{{hours}}h {{minutes}}m"
-      cannot_edit: "Comment cannot be edited after 15 minutes"
+      confirm_delete: 정말로 이 코멘트를 지우시겠습니까?
+      hours: "{{hours}}시"
+      hours_with_minutes: "{{hours}}시 {{minutes}}분"
+      cannot_edit: "15분이 지난 후에 코멘트를 수정할 수 있습니다."
     hours:
-      add_hours: Hours
-      hours: How many hours did you put into this task?
+      add_hours: 시간
+      hours: 이 테스크에 얼마나 많은 시간을 쓰셨습니까?
     new:
-      assigned_to_nobody: 'Unassigned'
-      assigned_to: "Assigned to:"
-      submit: Save
+      assigned_to_nobody: '미할당'
+      assigned_to: "다음 사용자에게 할당됨:"
+      submit: 저장
       project: "What are you doing? Share ideas, links, updates."
       conversation: "Send a message to the rest of the group."
       task_list: "Share ideas for this task list. To create and assign tasks, use the sidebar."
