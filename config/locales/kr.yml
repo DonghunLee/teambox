@@ -14,7 +14,7 @@ en:
     cancel: 취소
     close: 닫기
     save: 저장
-    show_more: Show {{number}} more
+    show_more: {{number}}개 더보기
     print: 프린트하기
     prev: 이전
     next: 다음
@@ -181,9 +181,9 @@ en:
     new:
       title: 새 계정 생성
       submit: 계정 생성
-      no_public_signup: "Public signups are not allowed in this system."
+      no_public_signup: "계정을 만들어야 접속하실 수 있습니다."
       you_are_logged_in: "이미 계정이 있습니다. 로그아웃하시고 해당 유저로 접속해 주세요."
-      existing_user: "If you already have an account, <a href='{{login_url}}'>log in</a> or <a href='{{forgot_url}}'>retrieve your password</a>."
+      existing_user: "이미 걔정을 가지고 있다면, <a href='{{login_url}}'>로그인 하거나</a> 또는 <a href='{{forgot_url}}'>아이디 를 찾으세요.</a>."
       you_already_have_an_account: "다음 이메일 주소로 이미 계정이 있습니다. {{email}}. <a href='{{login_link}}'>이메일로 로그인</a> 또는 <a href='{{reset_password_link}}'>비밀번호 재설정</a> if you forgot it."
     create:
       thanks: 가입해 주셔서 감사합니다!
@@ -209,18 +209,18 @@ en:
       profile: 프로필
       projects: 프로젝트
       recent_activity_for: "{{user_name}}님의 최근 활동"
-      pending_invite: "{{name}} currently has a pending invitation to one of your projects. You will not be able to access any more information until this invitation has been accepted."
+      pending_invite: "{{name}}님이 아직 초청을 수락하시지 않았습니다. 이 초청이 수락될까지 더 이상의 정보에 접근하실 수 없습니다."
     user:
       formatted_address: "{{street}}, {{city}} ({{country}})"
       remove_from_project: 프로젝트에서 삭제
     welcome:
       get_started: Teambox와 함께 시작하세요!
-      intro1: "You're our newest member! You'll soon see how Teambox can become your day's starting point."
-      intro2: "Where can you go now? Create a project to <b>collaborate</b>:" # or an agenda to <b>keep track of contacts</b>:"
+      intro1: "새로 가입해 주셔서 감사합니다! 팀박스는 곧 당신의 삶에 있어서 필수불가한 요소로 자리잡게 될 겁니다."
+      intro2: "당신이 할 수 있는것들? <b>협력</b>을 위해 프로젝트를 생성하세요:" # or an agenda to <b>keep track of contacts</b>:"
       projects:
         title: 프로젝트
-        share_and_collaborate: "Share and collaborate with your team! Project's wall updates, conversations, tasks, pages and files."
-        create_your_first_project: "An event, a design, a product... Go ahead and <a href='{{link}}'>create your first project</a> now!"
+        share_and_collaborate: "당신의 팀원들과 공유하고 협력하세요! 프로젝트 바탕화면에서는 대화와 테스크, 페이지, 그리고 파일들을 업데이트 됩니다."
+        create_your_first_project: "지금당장 이벤트, 디자인, 제작등을 <a href='{{link}}'>첫번째 프로젝트를 생성</a>해서 해보세요!"
       spread:
         title: Do you love us too?
         reasons: "We've been working on Teambox for years, hoping it can be useful for you.<br/>We're real people, motivated developers with a mission, just like you!"
