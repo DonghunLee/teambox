@@ -793,11 +793,11 @@ en:
     new:
       select_a_file: 파일을 선택하세요
     index:
-      new_file: Upload a File
-      cant_create: You don't have permission to upload files to this project
-      max_upload_size: "Max upload size is {{mb}} Mb"
+      new_file: 파일을 업로드 하세요
+      cant_create: 이 프로젝트에 파일을 업로드할 권한이 없습니다.
+      max_upload_size: "최대 {{mb}} Mb 업로드 가능합니다."
     form:
-      presence: "You can't upload a blank file"
+      presence: "빈 파일을 올릴 수 없습니다."
       max_size: "File size can't exceed {{mb}}"
       select_file: Select file
       description: Title <i>(optional)</i>
